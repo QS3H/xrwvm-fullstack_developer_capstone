@@ -1,5 +1,7 @@
 requests
 Django
+djangorestframework
 Pillow
 gunicorn
 python-dotenv
+django-cors-headers
