@@ -29,7 +29,6 @@
   "bitwise": true,
   "camelcase": true,
   "eqnull": true,
-  "esnext": true,
   "freeze": true,
   "futurehostile": true
 }
