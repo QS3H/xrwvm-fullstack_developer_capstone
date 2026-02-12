@@ -27,7 +27,7 @@
   "unused": "vars",
   "asi": false,
   "bitwise": true,
-  "camelcase": true,
+  "camelcase": false,
   "eqnull": true,
   "freeze": true,
   "futurehostile": true
