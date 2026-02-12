@@ -31,6 +31,7 @@ def get_cars(request):
         )
     return JsonResponse({"CarModels": cars})
 
+
 # Create a `login_request` view to handle sign in request
 @csrf_exempt
 def login_user(request):
@@ -100,6 +101,7 @@ def get_dealerships(request, state="All"):
         endpoint = "/fetchDealers/" + state
     dealerships = get_request(endpoint)
     return JsonResponse({"status": 200, "dealers": dealerships})
+
 
 # Create a `get_dealer_reviews` view to render the reviews of a dealer
 def get_dealer_reviews(request, dealer_id):
